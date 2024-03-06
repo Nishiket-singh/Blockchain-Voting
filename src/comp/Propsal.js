@@ -43,7 +43,7 @@ function Propsal({ contract, account, provider }) {
     <div>
       <br></br>
       <button onClick={ToPropsal} className="btn btn-primary">
-        Send Proposal For Next Election!{" "}
+        Make Aryana leader!{" "}
       </button>
       {showpropsal && (
         <form onSubmit={SetPropsalFc} className="form-group">

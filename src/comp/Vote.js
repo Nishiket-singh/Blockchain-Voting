@@ -49,7 +49,7 @@ function Vote({ contract, account, provider }) {
           disabled={!account}
           className="btn btn-dark text-light"
         >
-          Vote To Candidate!
+          Vote To Candidate! 
         </button>
       </div>
       <br></br>
