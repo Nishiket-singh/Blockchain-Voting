@@ -51,11 +51,11 @@ function Propsal({ contract, account, provider }) {
             <p className="h5"> Connected Address : {account}</p>
           </div>
           <div className="p-2">
-            AddressOfCandidate{" "}
+            Address Of Candidate{" "}
             <input type="text" id="Account" class="form-control"></input>
           </div>
           <div className="p-2">
-            AddressOfName{" "}
+            Name{" "}
             <input type="text" id="Name" class="form-control"></input>
           </div>
           <button type="submit" className="btn btn-dark mt-2">
@@ -78,7 +78,7 @@ function Propsal({ contract, account, provider }) {
       <div className="mt-3">
         {/* <p className="text-dark h3">Next Candidates</p> */}
         <button onClick={Fatch} className="btn btn-success">
-          Fatch Next Candidates
+          Fetch Next Candidate
         </button>
         {candidates.map((candidate) => {
           return (
