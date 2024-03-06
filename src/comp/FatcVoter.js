@@ -24,7 +24,7 @@ function FatcVoter({ contract, account, provider }) {
                 <tr className="p-2">
                   {/* <td>{voter.Id.toString()}</td> */}
                   <td className="p-2">Voter {voter.name} </td>
-                  <td className="p-2">VoterAddress {voter.voterAddress} </td>
+                  <td className="p-2">Voter Address {voter.voterAddress} </td>
                   <td className="p-2">Voted To {voter._CandidateAddress} </td>
                 </tr>
               </tbody>
