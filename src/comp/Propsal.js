@@ -51,11 +51,11 @@ function Propsal({ contract, account, provider }) {
             <p className="h5"> Connected Address : {account}</p>
           </div>
           <div className="p-2">
-            Address Of Candidate{" "}
+            Address Of Voter{" "}
             <input type="text" id="Account" class="form-control"></input>
           </div>
           <div className="p-2">
-            Name Of Candidate{" "}
+            Name Of Voter{" "}
             <input type="text" id="Name" class="form-control"></input>
           </div>
           <button type="submit" className="btn btn-dark mt-2">
