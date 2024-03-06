@@ -68,7 +68,7 @@ function App() {
       }}
     >
       <p className="text-center h5 text-warning p-2">
-        Blockchain for Electronic Voting System
+        Blockchain Voting System
       </p>
       <div className="d-flex justify-content-between">
         <button
