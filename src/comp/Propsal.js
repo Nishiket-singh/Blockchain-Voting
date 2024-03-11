@@ -43,7 +43,7 @@ function Propsal({ contract, account, provider }) {
     <div>
       <br></br>
       <button onClick={ToPropsal} className="btn btn-primary">
-        Make Aryana leader!{" "}
+        Propose a candidate for next election{" "}
       </button>
       {showpropsal && (
         <form onSubmit={SetPropsalFc} className="form-group">
@@ -51,11 +51,11 @@ function Propsal({ contract, account, provider }) {
             <p className="h5"> Connected Address : {account}</p>
           </div>
           <div className="p-2">
-            Address Of Voter{" "}
+            Address Of Candidate{" "}
             <input type="text" id="Account" class="form-control"></input>
           </div>
           <div className="p-2">
-            Name Of Voter{" "}
+            Name Of Candidate{" "}
             <input type="text" id="Name" class="form-control"></input>
           </div>
           <button type="submit" className="btn btn-dark mt-2">
